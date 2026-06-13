@@ -1,5 +1,7 @@
 # QSystemTrayIcon crash on macOS 27
 
+Bug report: https://qt-project.atlassian.net/browse/QTBUG-147449
+
 ## Summary
 
 Qt programs that have a tray icon (`QSystemTrayIcon`) seem to immediately crash when that tray icon is clicked. This affects Qt programs running on the latest macOS 27 beta.
